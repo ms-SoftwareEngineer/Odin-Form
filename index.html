@@ -20,6 +20,66 @@
             </p>
         </section>
         <section class="content">
+            <div class="intro-text">
+                <p>
+                    This is not a real online service! You know you need something like this
+                    in your life to help you realize your deepest dreams.<br>Sign up now to get started
+                </p>
+                <p>
+                    You know you want to.
+                </p>
+            </div>
+            <div class="form-content">
+                <h2>Let's do this</h2>
+                <form id="form">
+                    <ul>
+                        <li>
+                            <label for="fname">First Name 
+                                <span aria-label="required" class="required">*</span>
+                            </label>
+                            <input type="text" name="firstName" id="fname" required>
+                        </li>
+                        <li>
+                            <label for="lname">Last Name 
+                                <span aria-label="required" class="required">*</span>
+                            </label>
+                            <input type="text" name="lastName" id="lname" required>
+                        </li>
+                        <li>
+                            <label for="email">Email 
+                                <span aria-label="required" class="required">*</span>
+                            </label>
+                            <input type="email" name="mail" id="email" required>
+                        </li>
+                        <li>
+                            <label for="telNumber">Phone Number 
+                                <span aria-label="required" class="required">*</span>
+                            </label>
+                            <input type="tel" name="phoneNumber" id="telNumber" placeholder="000-000-0000" 
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                        </li>
+                        <li>
+                            <label for="password">Password 
+                                <span aria-label="required" class="required">*</span>
+                            </label>
+                            <input type="password" name="password" id="password"
+                            minlength="8" maxlength="16" required>
+                        </li>
+                        <li>
+                            <label for="confirmPassword">Confirm Password 
+                                <span aria-label="required" class="required">*</span>
+                            </label>
+                            <input type="password" name="confirmPassword" id="confirmPassword" required>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+            <div class="account">
+                <button type="submit" form="form">Create Account</button>
+                <p class="log-in">
+                    Already have an account? <a href="#">Log in</a>
+                </p>
+            </div>
             
         </section>
     </main>
