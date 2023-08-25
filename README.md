@@ -1,82 +1,25 @@
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
+# Sign-up Form
+## Introduction
+This project was given by the Odin Project in the 
+"__Intermediate HTML and CSS__" section
 
-<!-- Italics -->
-*This text* is italic
+## Resources
+* [Password Pattern](https://stackoverflow.com/questions/19605150/regex-for-password-must-contain-at-least-eight-characters-at-least-one-number-a "StackOverflow") (to use this pattern for this project)
 
-_This also_ italic
+* [Markdown Crash Course](https://www.youtube.com/watch?v=HUBNt18RFbo&pp=ygUVbWFya2Rvd24gY3Jhc2ggY291cnNl "By Traversy Media") (to learn how to write readme files)
 
-<!-- Strong -->
-__String__
+* [Scroll down animation](https://codepen.io/daniel-j-leblanc/pen/YbjJZw "Codepen")
 
-<!-- StrikeThrough -->
-~~Strike~~
+* [W3Schools](https://www.w3schools.com/)
 
-<!-- Horizontal Rule -->
- ---
-  ___
+* [ChatGPT](https://chat.openai.com/)
 
- <!-- Blockquote -->
- > This is a quote
+## Learnings
+* I have learned how to use JavaScript to check whether the passwords are same and show it in the web using __setCustomValidity()__ function.
 
-<!-- Links -->
+* I have learned how to have scroll down effect using __translateY()__ function.
 
-[Google](https://google.com)
+* I have learned about __"CSS Positions"__ in this project.
 
-[Google](https://google.com "Google")
-
-
-<!-- UL -->
-* First
-* Second
-* Third
-    * Third A
-    * Third B
-    * Third C
-
-<!-- OL -->
-1. Item1
-1. Item 2
-1. Item 3
-1. Item 4
-
-<!-- Inine Code Block -->
-`<p>Hi My code is seems to work</p>`
-
-<!-- Images -->
-![Odin Logo](https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png)
-
-
-<!-- GitHub MarkDown -->
-<!-- CodeBlocks -->
-
-```
-    npm install
-    npm install jest
-```
-
-```javascript
-    // JavaScript Code
-    function sum(a,b){
-        return a + b;
-    }
-```
-
-
-<!-- Tables -->
-
-| Name   | Age |
-| ------ | --- |
-| MS     | 20 |
-|Anbu|21|
-|Roshan|25|
-
-
-<!-- Task Lists -->
-* [x] Task 1
-* [x] Task 2
-* [ ] Task 3
+## Conclusion
+This project provided an excellent opportunity for me to revisit and enhance my proficiency in flexbox skills and CSS positioning. Through this experience, I gained a deeper understanding of these fundamental web development techniques. Overall, working on this project was both enjoyable and enlightening, allowing me to strengthen my front-end development skills in a practical context.
