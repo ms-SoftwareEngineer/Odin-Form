@@ -15,6 +15,7 @@ html,body{
 body{
     font-family: sans-serif;
     font-size: 62.5%;
+    width: 100%;
 }
 
 main{
@@ -31,7 +32,8 @@ main{
 
 #background-image{
     width: 100%;
-    min-height: 100vh;
+    display: block;
+    height: 100vh;
     position: relative;
 }
 
@@ -162,4 +164,27 @@ button{
 
 .account{
     padding: 2rem;
+}
+
+@media(max-width:1245px){
+    main{
+        flex-direction: column;
+    }
+
+    .background{
+        width: 100%;
+    }
+
+    .logo{
+        width: 100%;
+    }
+
+    .copyright{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .5rem;
+        width: 100%;
+        left: 0;
+    }
 }
