@@ -166,6 +166,26 @@ button{
     padding: 2rem;
 }
 
+.info{
+    position: absolute;
+    top: 50%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    visibility: hidden;
+}
+
+#icon{
+    font-size: 5rem;
+}
+
 @media(max-width:1245px){
     main{
         flex-direction: column;
@@ -187,6 +207,26 @@ button{
         width: 100%;
         left: 0;
     }
+
+    .info{
+        visibility: visible;
+    }
+
+    #icon{
+        animation:big 1s alternate infinite ease-in;
+    }
+
+    @keyframes big{
+        0%{
+            transform: translateY(2rem);
+        }
+
+        100%{
+            transform: translateY(3rem);
+        }
+    }
+
+    
 }
 
 @media(max-width:870px){
